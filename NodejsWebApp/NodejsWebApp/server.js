@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json()); // Body parser use JSON data
 
 var pg = require('pg');
-var conString = "postgres://postgres:maxTW_yyc@localhost/Hackathon";
+var conString = "postgres://postgres:1234@localhost/Hackathon";
 
 app.get('/', function (req, res) {
     res.setHeader('Content-Type', 'application/json');
